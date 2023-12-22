@@ -1,0 +1,38 @@
+1) Create a NEW Git Repository	
+	Linl -> https://github.com/RushiTestLogics/TeamProject
+
+2) Adding a file named "README.md"
+	link -> https://github.com/RushiTestLogics/TeamProject/blob/main/README.md
+
+3) creating a new branch named "collaborator-branch"
+	command -> git branch "collaborator-branch"
+
+4) on the "collaborator-branch" branch add a file named "feature.txt"
+	command for it ->
+		1. git init	->(initializing the existed repository to git)
+		2. git add feature.txt	->(adding the file)
+		3. git commit -m"message thae feature.txt file added successfully"
+		
+5) Branch Merging
+	command for merging is 
+		git merge main
+
+6) Remote Repository
+	command for remote Repository
+
+		1.git config --global user.name "RushiTestLogics"
+		2.git config --global user.email "rushikeshdhanwate123@gmail.com"
+
+	commad for pushing the file on the remote repository is 
+		1. git push https://github.com/RushiTestLogics/TeamProject.git
+
+7) Merge the pull reguest into the main branch\
+	command 
+		git merge main
+		git push origin main
+
+8) Update Local Repository
+
+	command
+		git pull origin main
+	    OR  git pull https://github.com/RushiTestLogics/TeamProject.git
